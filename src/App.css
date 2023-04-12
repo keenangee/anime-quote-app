@@ -1,38 +1,82 @@
-.App {
+header {
+  background-color: rgb(34, 34, 34, 0.8);
+  height: 100px;
+  padding: 20px;
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+  text-align: center;
+  font-family: monospace;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 1.5rem;
+  }
+}
+
+.loading,
+.error,
+.waiting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: rgb(215, 236, 255, 0.5);
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+}
+
+.quote {
+  background-color: rgb(215, 236, 255, 0.5);
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+  min-height: 50vh;
+}
+
+.quote_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr;
+  grid-template-areas:
+    "label label"
+    "info info";
+  width: 100vw;
+  padding: 50px 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote_line {
+  text-align: center;
+  padding: 20px 20px 40px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-area {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 2rem;
+  font-size: 1.8rem;
 }
 
-.App-link {
-  color: #61dafb;
+.random_button {
+  background-color: rgb(241, 157, 38, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: solid 2px rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#label-character {
+  padding: 0 0.5rem;
+  color: black;
+  text-shadow: white 0.2rem 0.1rem 0.1rem;
+}
+
+#label-anime {
+  padding: 0 0.5rem;
+  color: black;
+  text-shadow: white 0.2rem 0.1rem 0.1rem;
 }

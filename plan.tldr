@@ -1495,122 +1495,6 @@
               0.5
             ]
           },
-          "fc655558-7f40-415b-3430-eea922cf1fcc": {
-            "id": "fc655558-7f40-415b-3430-eea922cf1fcc",
-            "type": "arrow",
-            "name": "Arrow",
-            "parentId": "page",
-            "childIndex": 51,
-            "point": [
-              1794.69,
-              -150.68
-            ],
-            "rotation": 0,
-            "bend": -0.00002769140554453288,
-            "handles": {
-              "start": {
-                "id": "start",
-                "index": 0,
-                "point": [
-                  97.97,
-                  462.3
-                ],
-                "canBind": true,
-                "bindingId": "009555bb-c225-472c-1dc0-4d6c858c9f36"
-              },
-              "end": {
-                "id": "end",
-                "index": 1,
-                "point": [
-                  0,
-                  0
-                ],
-                "canBind": true,
-                "bindingId": "38928662-e94e-4df3-3b9d-70530954383d"
-              },
-              "bend": {
-                "id": "bend",
-                "index": 2,
-                "point": [
-                  48.99,
-                  231.15
-                ]
-              }
-            },
-            "decorations": {
-              "end": "arrow"
-            },
-            "style": {
-              "color": "cyan",
-              "size": "small",
-              "isFilled": false,
-              "dash": "dotted",
-              "scale": 1
-            },
-            "label": "",
-            "labelPoint": [
-              0.5,
-              0.5
-            ]
-          },
-          "0dbaf253-f0b1-4e4f-1592-c3cc97b36352": {
-            "id": "0dbaf253-f0b1-4e4f-1592-c3cc97b36352",
-            "type": "arrow",
-            "name": "Arrow",
-            "parentId": "page",
-            "childIndex": 52,
-            "point": [
-              1825.97,
-              -156.18
-            ],
-            "rotation": 0,
-            "bend": -0.000008912128235049778,
-            "handles": {
-              "start": {
-                "id": "start",
-                "index": 0,
-                "point": [
-                  236.39,
-                  137.35
-                ],
-                "canBind": true,
-                "bindingId": "c9a4870a-a331-4388-2a9a-0d14480d4d85"
-              },
-              "end": {
-                "id": "end",
-                "index": 1,
-                "point": [
-                  0,
-                  0
-                ],
-                "canBind": true,
-                "bindingId": "929ff17e-b41e-4bc6-085c-2dd939b3eaa6"
-              },
-              "bend": {
-                "id": "bend",
-                "index": 2,
-                "point": [
-                  118.2,
-                  68.68
-                ]
-              }
-            },
-            "decorations": {
-              "end": "arrow"
-            },
-            "style": {
-              "color": "cyan",
-              "size": "small",
-              "isFilled": false,
-              "dash": "dotted",
-              "scale": 1
-            },
-            "label": "",
-            "labelPoint": [
-              0.5,
-              0.5
-            ]
-          },
           "af37f256-1e51-4891-3b34-622e07c9a162": {
             "id": "af37f256-1e51-4891-3b34-622e07c9a162",
             "type": "text",
@@ -1757,6 +1641,166 @@
             "text": "prop - set state",
             "style": {
               "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "dotted",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ac259527-568d-4b76-1ab1-9c12b058a1e7": {
+            "id": "ac259527-568d-4b76-1ab1-9c12b058a1e7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 60,
+            "point": [
+              1416.96,
+              287.56
+            ],
+            "rotation": 0,
+            "text": "state",
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "dotted",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1d3b0178-6b54-430d-3b57-d1d10f0ae8b2": {
+            "id": "1d3b0178-6b54-430d-3b57-d1d10f0ae8b2",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 61,
+            "point": [
+              1792.53,
+              -158.68
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "2ae7c2ce-9612-47fd-3691-701907ed4bc0"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  86.67,
+                  462.3
+                ],
+                "canBind": true,
+                "bindingId": "5c9ae1ef-b0aa-4815-256d-c6d61a82e54b"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  43.34,
+                  231.15
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "dotted",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "a0d2ee38-a865-4763-210c-f6eb3d722f72": {
+            "id": "a0d2ee38-a865-4763-210c-f6eb3d722f72",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 62,
+            "point": [
+              1817.97,
+              -159.32
+            ],
+            "rotation": 0,
+            "bend": -0.000011700194687836744,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "7f09b5cf-f4d3-4949-293b-a00f0dbcda86"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  209.59,
+                  132.69
+                ],
+                "canBind": true,
+                "bindingId": "2c13eee9-f271-44b2-1fee-51b69d2fc604"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  104.8,
+                  66.35
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "dotted",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "3d333b88-67da-45d5-3317-34d0826fe4e5": {
+            "id": "3d333b88-67da-45d5-3317-34d0826fe4e5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 63,
+            "point": [
+              2118.81,
+              -49.99
+            ],
+            "rotation": 0,
+            "text": "state",
+            "style": {
+              "color": "yellow",
               "size": "small",
               "isFilled": false,
               "dash": "dotted",
@@ -1983,11 +2027,11 @@
             ],
             "distance": 8
           },
-          "009555bb-c225-472c-1dc0-4d6c858c9f36": {
-            "id": "009555bb-c225-472c-1dc0-4d6c858c9f36",
+          "2ae7c2ce-9612-47fd-3691-701907ed4bc0": {
+            "id": "2ae7c2ce-9612-47fd-3691-701907ed4bc0",
             "type": "arrow",
-            "fromId": "fc655558-7f40-415b-3430-eea922cf1fcc",
-            "toId": "fb2b69f3-d282-44e6-1e77-298ca634b031",
+            "fromId": "1d3b0178-6b54-430d-3b57-d1d10f0ae8b2",
+            "toId": "75194d0c-62da-47a2-25ca-66e55693087b",
             "handleId": "start",
             "point": [
               0.5,
@@ -1995,23 +2039,23 @@
             ],
             "distance": 8
           },
-          "38928662-e94e-4df3-3b9d-70530954383d": {
-            "id": "38928662-e94e-4df3-3b9d-70530954383d",
+          "2c13eee9-f271-44b2-1fee-51b69d2fc604": {
+            "id": "2c13eee9-f271-44b2-1fee-51b69d2fc604",
             "type": "arrow",
-            "fromId": "fc655558-7f40-415b-3430-eea922cf1fcc",
-            "toId": "75194d0c-62da-47a2-25ca-66e55693087b",
-            "handleId": "end",
-            "point": [
-              0.5,
-              0.5
-            ],
-            "distance": 8
-          },
-          "c9a4870a-a331-4388-2a9a-0d14480d4d85": {
-            "id": "c9a4870a-a331-4388-2a9a-0d14480d4d85",
-            "type": "arrow",
-            "fromId": "0dbaf253-f0b1-4e4f-1592-c3cc97b36352",
+            "fromId": "a0d2ee38-a865-4763-210c-f6eb3d722f72",
             "toId": "c106ca07-0451-481b-3832-f263e892de59",
+            "handleId": "end",
+            "point": [
+              0.44,
+              0.7
+            ],
+            "distance": 8
+          },
+          "7f09b5cf-f4d3-4949-293b-a00f0dbcda86": {
+            "id": "7f09b5cf-f4d3-4949-293b-a00f0dbcda86",
+            "type": "arrow",
+            "fromId": "a0d2ee38-a865-4763-210c-f6eb3d722f72",
+            "toId": "75194d0c-62da-47a2-25ca-66e55693087b",
             "handleId": "start",
             "point": [
               0.5,
@@ -2019,15 +2063,15 @@
             ],
             "distance": 8
           },
-          "929ff17e-b41e-4bc6-085c-2dd939b3eaa6": {
-            "id": "929ff17e-b41e-4bc6-085c-2dd939b3eaa6",
+          "5c9ae1ef-b0aa-4815-256d-c6d61a82e54b": {
+            "id": "5c9ae1ef-b0aa-4815-256d-c6d61a82e54b",
             "type": "arrow",
-            "fromId": "0dbaf253-f0b1-4e4f-1592-c3cc97b36352",
-            "toId": "75194d0c-62da-47a2-25ca-66e55693087b",
+            "fromId": "1d3b0178-6b54-430d-3b57-d1d10f0ae8b2",
+            "toId": "fb2b69f3-d282-44e6-1e77-298ca634b031",
             "handleId": "end",
             "point": [
-              0.5,
-              0.5
+              0.43,
+              0.58
             ],
             "distance": 8
           }

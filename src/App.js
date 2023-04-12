@@ -6,14 +6,20 @@ import Title from "./components/title.component";
 import { useState } from "react";
 
 function App() {
-  const [quotePath, setQuotePath] = useState("");
+  const [quotePath, setQuotePath] = useState(null);
 
   return (
     <div className="App">
-      <Title />
-      <Quote searchTerm={quotePath} />
-      <Random setQuotePath={setQuotePath} />
-      <Search setQuotePath={setQuotePath} />
+      <header className="hero">
+        <Title />
+      </header>
+      <section className="quote-area">
+        <Quote searchTerm={quotePath} />
+      </section>
+      <section className="form-area">
+        <Random setQuotePath={setQuotePath} />
+        <Search setQuotePath={setQuotePath} />
+      </section>
     </div>
   );
 }
