@@ -81,7 +81,7 @@ body {
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
-  font-family: "Bangers", sans-serif;
+  font-family: "Bangers", "Roboto", sans-serif;
   font-size: 2em;
   color: rgb(255, 255, 255);
   text-shadow: rgb(255, 255, 255) 0.2rem 0.1rem 0.1rem;
