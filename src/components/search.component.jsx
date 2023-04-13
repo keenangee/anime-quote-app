@@ -10,11 +10,11 @@ const Search = ({ setQuotePath }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setQuotePath(
+    setQuotePath([
       `random/${searchType}?${
         searchType === "character" ? "name" : "title"
-      }=${searchTerm}`
-    );
+      }=${searchTerm}`,
+    ]);
   };
 
   return (

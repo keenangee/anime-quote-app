@@ -6,7 +6,7 @@ import Title from "./components/title.component";
 import { useState } from "react";
 
 function App() {
-  const [quotePath, setQuotePath] = useState(null);
+  const [quotePath, setQuotePath] = useState([]);
 
   return (
     <div className="App">
@@ -14,7 +14,7 @@ function App() {
         <Title />
       </header>
       <section className="quote-area">
-        <Quote searchTerm={quotePath} />
+        <Quote quotePath={quotePath} />
       </section>
       <section className="form-area">
         <Random setQuotePath={setQuotePath} />

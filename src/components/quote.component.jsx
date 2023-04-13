@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const Quote = ({ searchTerm }) => {
+const Quote = ({ quotePath }) => {
   const [quote, setQuote] = useState();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -9,22 +9,40 @@ const Quote = ({ searchTerm }) => {
     setLoading(true);
     setError(false);
     const getQuote = async () => {
-      const response = await fetch(
-        `https://animechan.vercel.app/api/${searchTerm ?? "random"}`
-      ).catch((error) => {
+      try {
+        const response = await fetch(
+          `https://animechan.vercel.app/api/${
+            quotePath.length === 0 ? "random" : quotePath
+          }`
+        );
+        if (!response.ok) {
+          setError(null);
+        }
+        const data = await response.json();
+        setQuote(data);
+        setLoading(false);
+      } catch (error) {
         setError(true);
-      });
-      const data = await response.json();
-      setQuote(data);
-      setLoading(false);
+      } finally {
+        setLoading(false);
+      }
     };
-    getQuote();
-  }, [searchTerm]);
 
-  if (error) {
+    getQuote();
+  }, [quotePath]);
+
+  if (error === true) {
     return (
       <div className="error">
         <h2>Oh no... please select search criteria</h2>
+      </div>
+    );
+  }
+
+  if (error === null) {
+    return (
+      <div className="error">
+        <h2>Oh no... we can't find that one</h2>
       </div>
     );
   }

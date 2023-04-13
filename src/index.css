@@ -73,14 +73,16 @@ select {
   }
 }
 
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
 body {
   background: url(../public/anime-hero-50.png) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Bangers", sans-serif;
+  font-size: 2em;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(0, 0, 0) 0.2rem 0.1rem 0.1rem;
+  text-shadow: rgb(255, 255, 255) 0.2rem 0.1rem 0.1rem;
 }

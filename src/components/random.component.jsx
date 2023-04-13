@@ -1,12 +1,6 @@
 const Random = ({ setQuotePath }) => {
   const handleClick = () => {
-    setQuotePath((prev) => {
-      if (prev === "random") {
-        return null;
-      } else {
-        return "random";
-      }
-    });
+    setQuotePath(["random"]);
   };
 
   return (
