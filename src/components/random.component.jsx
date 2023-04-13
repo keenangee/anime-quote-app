@@ -1,21 +1,17 @@
-import { useState, useEffect } from "react";
-
 const Random = ({ setQuotePath }) => {
-  const [quote, setQuote] = useState(null);
-
-  useEffect(() => {
-    setQuotePath(quote);
-    setQuote(null);
-  }, [quote]);
+  const handleClick = () => {
+    setQuotePath((prev) => {
+      if (prev === "random") {
+        return null;
+      } else {
+        return "random";
+      }
+    });
+  };
 
   return (
     <div className="random_button_container">
-      <button
-        className="random_button"
-        onClick={() => {
-          setQuote("random");
-        }}
-      >
+      <button className="random_button" onClick={handleClick}>
         Feeling Lucky?
       </button>
     </div>
